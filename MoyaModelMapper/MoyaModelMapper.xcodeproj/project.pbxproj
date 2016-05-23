@@ -17,7 +17,6 @@
 		E5E053BB1CF2ADF1000F1C97 /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E0537A1CF29D62000F1C97 /* MoyaModelMapper.framework */; };
 		E5E053BD1CF2C43E000F1C97 /* RxMoyaModelMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E0539D1CF29D86000F1C97 /* RxMoyaModelMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5E053BF1CF2C49D000F1C97 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053BE1CF2C49D000F1C97 /* Mapper.framework */; };
-		E5E053C11CF2C4A1000F1C97 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053C01CF2C4A1000F1C97 /* Moya.framework */; };
 		E5E053C51CF2C4DB000F1C97 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053C21CF2C4DB000F1C97 /* Mapper.framework */; };
 		E5E053C61CF2C4DB000F1C97 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053C31CF2C4DB000F1C97 /* Moya.framework */; };
 		E5E053C71CF2C4DB000F1C97 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053C41CF2C4DB000F1C97 /* RxSwift.framework */; };
@@ -60,6 +59,7 @@
 		E5E053C21CF2C4DB000F1C97 /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = Carthage/Checkouts/mapper/build/Debug/Mapper.framework; sourceTree = "<group>"; };
 		E5E053C31CF2C4DB000F1C97 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = "Carthage/Checkouts/Moya/build/Debug-iphoneos/Moya.framework"; sourceTree = "<group>"; };
 		E5E053C41CF2C4DB000F1C97 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "Carthage/Checkouts/RxSwift/build/Debug-iphoneos/RxSwift.framework"; sourceTree = "<group>"; };
+		E5E053C81CF2D871000F1C97 /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = "Carthage/Checkouts/Moya/build/Debug-iphoneos/ReactiveMoya.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5E053C11CF2C4A1000F1C97 /* Moya.framework in Frameworks */,
 				E5E053BF1CF2C49D000F1C97 /* Mapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +174,7 @@
 		E5E053B51CF2AB3C000F1C97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E5E053C81CF2D871000F1C97 /* ReactiveMoya.framework */,
 				E5E053C21CF2C4DB000F1C97 /* Mapper.framework */,
 				E5E053C31CF2C4DB000F1C97 /* Moya.framework */,
 				E5E053C41CF2C4DB000F1C97 /* RxSwift.framework */,
@@ -501,7 +501,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MoyaModelMapper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -520,7 +523,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = MoyaModelMapper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -557,7 +563,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxMoyaModelMapper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -574,7 +583,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = RxMoyaModelMapper/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
