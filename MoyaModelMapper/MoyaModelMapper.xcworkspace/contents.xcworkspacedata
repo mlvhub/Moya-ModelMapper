@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:MoyaModelMapper.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/RxSwift/Rx.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Moya/Moya.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/mapper/Mapper.xcodeproj">
+   </FileRef>
+</Workspace>

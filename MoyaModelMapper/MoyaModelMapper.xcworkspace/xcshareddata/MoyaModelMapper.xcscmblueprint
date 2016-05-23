@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E807B71A1F1130DF25D294CCCF74E01B24C60C5D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8B123162C394A0A0A138779108E4C59DD771865A" : 0,
+    "15ADDC96148D8EC7ABACA3AFDED5D958C5D22840" : 0,
+    "E807B71A1F1130DF25D294CCCF74E01B24C60C5D" : 0,
+    "68F9105D0CE3F188FC463B1001196317E868BA7D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D32041C6-AB17-46A5-89C9-B2DD83EA89A4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8B123162C394A0A0A138779108E4C59DD771865A" : "Moya-ModelMapper\/MoyaModelMapper\/Carthage\/Checkouts\/RxSwift\/",
+    "15ADDC96148D8EC7ABACA3AFDED5D958C5D22840" : "Moya-ModelMapper\/MoyaModelMapper\/Carthage\/Checkouts\/Moya\/",
+    "E807B71A1F1130DF25D294CCCF74E01B24C60C5D" : "Moya-ModelMapper\/",
+    "68F9105D0CE3F188FC463B1001196317E868BA7D" : "Moya-ModelMapper\/MoyaModelMapper\/Carthage\/Checkouts\/mapper\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MoyaModelMapper",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MoyaModelMapper\/MoyaModelMapper.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Moya\/Moya.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "15ADDC96148D8EC7ABACA3AFDED5D958C5D22840"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lyft\/mapper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "68F9105D0CE3F188FC463B1001196317E868BA7D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveX\/RxSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8B123162C394A0A0A138779108E4C59DD771865A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mlvhub\/Moya-ModelMapper.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E807B71A1F1130DF25D294CCCF74E01B24C60C5D"
+    }
+  ]
+}
