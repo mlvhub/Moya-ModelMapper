@@ -18,6 +18,7 @@
 		E5E053B81CF2AB79000F1C97 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053B61CF2AB6D000F1C97 /* RxSwift.framework */; };
 		E5E053BA1CF2ADD0000F1C97 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053B91CF2ADD0000F1C97 /* Moya.framework */; };
 		E5E053BB1CF2ADF1000F1C97 /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E0537A1CF29D62000F1C97 /* MoyaModelMapper.framework */; };
+		E5E053BC1CF2B961000F1C97 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053B91CF2ADD0000F1C97 /* Moya.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5E053BC1CF2B961000F1C97 /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +121,6 @@
 		E5E0537C1CF29D62000F1C97 /* MoyaModelMapper */ = {
 			isa = PBXGroup;
 			children = (
-				E5E053B21CF29D8E000F1C97 /* RxSwift */,
 				E5E053941CF29D7B000F1C97 /* Response+ModelMapper.swift */,
 				E5E0537D1CF29D62000F1C97 /* MoyaModelMapper.h */,
 				E5E0537F1CF29D62000F1C97 /* Info.plist */,
@@ -139,6 +140,7 @@
 		E5E0539C1CF29D86000F1C97 /* RxMoyaModelMapper */ = {
 			isa = PBXGroup;
 			children = (
+				E5E053B21CF29D8E000F1C97 /* RxSwift */,
 				E5E0539D1CF29D86000F1C97 /* RxMoyaModelMapper.h */,
 				E5E0539F1CF29D86000F1C97 /* Info.plist */,
 			);
