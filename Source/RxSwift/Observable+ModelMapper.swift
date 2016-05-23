@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import MoyaModelMapper
 import RxSwift
 import Moya
 import Mapper
