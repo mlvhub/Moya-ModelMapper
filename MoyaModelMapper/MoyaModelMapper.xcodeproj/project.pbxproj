@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E50A8F181D03A22B006FE562 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A8F161D03A22B006FE562 /* Mapper.framework */; };
+		E50A8F191D03A22B006FE562 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A8F171D03A22B006FE562 /* Moya.framework */; };
+		E50A8F1B1D03A24B006FE562 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A8F1A1D03A24B006FE562 /* RxSwift.framework */; };
+		E50A8F1D1D03A259006FE562 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E50A8F1C1D03A259006FE562 /* Mapper.framework */; };
 		E5E0537E1CF29D62000F1C97 /* MoyaModelMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E0537D1CF29D62000F1C97 /* MoyaModelMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E5E053851CF29D62000F1C97 /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E0537A1CF29D62000F1C97 /* MoyaModelMapper.framework */; };
 		E5E0538A1CF29D63000F1C97 /* MoyaModelMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E053891CF29D63000F1C97 /* MoyaModelMapperTests.swift */; };
@@ -16,10 +20,6 @@
 		E5E053B41CF29D8F000F1C97 /* Observable+ModelMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E053B31CF29D8E000F1C97 /* Observable+ModelMapper.swift */; };
 		E5E053BB1CF2ADF1000F1C97 /* MoyaModelMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E0537A1CF29D62000F1C97 /* MoyaModelMapper.framework */; };
 		E5E053BD1CF2C43E000F1C97 /* RxMoyaModelMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E0539D1CF29D86000F1C97 /* RxMoyaModelMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5E053BF1CF2C49D000F1C97 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053BE1CF2C49D000F1C97 /* Mapper.framework */; };
-		E5E053C51CF2C4DB000F1C97 /* Mapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053C21CF2C4DB000F1C97 /* Mapper.framework */; };
-		E5E053C61CF2C4DB000F1C97 /* Moya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053C31CF2C4DB000F1C97 /* Moya.framework */; };
-		E5E053C71CF2C4DB000F1C97 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E053C41CF2C4DB000F1C97 /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E50A8F161D03A22B006FE562 /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = ../Carthage/Checkouts/mapper/build/Debug/Mapper.framework; sourceTree = "<group>"; };
+		E50A8F171D03A22B006FE562 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = "../Carthage/Checkouts/Moya/build/Debug-iphoneos/Moya.framework"; sourceTree = "<group>"; };
+		E50A8F1A1D03A24B006FE562 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "../Carthage/Checkouts/RxSwift/build/Debug-iphoneos/RxSwift.framework"; sourceTree = "<group>"; };
+		E50A8F1C1D03A259006FE562 /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = ../Carthage/Checkouts/mapper/build/Debug/Mapper.framework; sourceTree = "<group>"; };
 		E5E0537A1CF29D62000F1C97 /* MoyaModelMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MoyaModelMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5E0537D1CF29D62000F1C97 /* MoyaModelMapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoyaModelMapper.h; sourceTree = "<group>"; };
 		E5E0537F1CF29D62000F1C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -54,12 +58,6 @@
 		E5E053A91CF29D86000F1C97 /* RxMoyaModelMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMoyaModelMapperTests.swift; sourceTree = "<group>"; };
 		E5E053AB1CF29D86000F1C97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E5E053B31CF29D8E000F1C97 /* Observable+ModelMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+ModelMapper.swift"; sourceTree = "<group>"; };
-		E5E053BE1CF2C49D000F1C97 /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = Carthage/Checkouts/mapper/build/Debug/Mapper.framework; sourceTree = "<group>"; };
-		E5E053C01CF2C4A1000F1C97 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = "Carthage/Checkouts/Moya/build/Debug-iphoneos/Moya.framework"; sourceTree = "<group>"; };
-		E5E053C21CF2C4DB000F1C97 /* Mapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Mapper.framework; path = Carthage/Checkouts/mapper/build/Debug/Mapper.framework; sourceTree = "<group>"; };
-		E5E053C31CF2C4DB000F1C97 /* Moya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Moya.framework; path = "Carthage/Checkouts/Moya/build/Debug-iphoneos/Moya.framework"; sourceTree = "<group>"; };
-		E5E053C41CF2C4DB000F1C97 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = "Carthage/Checkouts/RxSwift/build/Debug-iphoneos/RxSwift.framework"; sourceTree = "<group>"; };
-		E5E053C81CF2D871000F1C97 /* ReactiveMoya.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReactiveMoya.framework; path = "Carthage/Checkouts/Moya/build/Debug-iphoneos/ReactiveMoya.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5E053BF1CF2C49D000F1C97 /* Mapper.framework in Frameworks */,
+				E50A8F181D03A22B006FE562 /* Mapper.framework in Frameworks */,
+				E50A8F191D03A22B006FE562 /* Moya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5E053C51CF2C4DB000F1C97 /* Mapper.framework in Frameworks */,
-				E5E053C61CF2C4DB000F1C97 /* Moya.framework in Frameworks */,
-				E5E053C71CF2C4DB000F1C97 /* RxSwift.framework in Frameworks */,
+				E50A8F1D1D03A259006FE562 /* Mapper.framework in Frameworks */,
+				E50A8F1B1D03A24B006FE562 /* RxSwift.framework in Frameworks */,
 				E5E053BB1CF2ADF1000F1C97 /* MoyaModelMapper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,12 +172,10 @@
 		E5E053B51CF2AB3C000F1C97 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E5E053C81CF2D871000F1C97 /* ReactiveMoya.framework */,
-				E5E053C21CF2C4DB000F1C97 /* Mapper.framework */,
-				E5E053C31CF2C4DB000F1C97 /* Moya.framework */,
-				E5E053C41CF2C4DB000F1C97 /* RxSwift.framework */,
-				E5E053C01CF2C4A1000F1C97 /* Moya.framework */,
-				E5E053BE1CF2C49D000F1C97 /* Mapper.framework */,
+				E50A8F1C1D03A259006FE562 /* Mapper.framework */,
+				E50A8F1A1D03A24B006FE562 /* RxSwift.framework */,
+				E50A8F161D03A22B006FE562 /* Mapper.framework */,
+				E50A8F171D03A22B006FE562 /* Moya.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

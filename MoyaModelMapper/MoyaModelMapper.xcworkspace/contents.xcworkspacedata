@@ -2,15 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../Carthage/Checkouts/Moya/Moya.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Carthage/Checkouts/mapper/Mapper.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:../Carthage/Checkouts/RxSwift/Rx.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "container:MoyaModelMapper.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Carthage/Checkouts/RxSwift/Rx.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Carthage/Checkouts/Moya/Moya.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Carthage/Checkouts/mapper/Mapper.xcodeproj">
    </FileRef>
 </Workspace>
